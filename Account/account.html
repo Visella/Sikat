@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="shortcut icon" href="../image/logonobg.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+</head>
+
+<body>
+  <div class="container" id="main">
+    <div class="sign-up">
+      <form action="#">
+        <h1>Daftar</h1>
+        <input type="text" name="txt" placeholder="Nama Pengguna" required="">
+        <input type="email" name="email" placeholder="Email" required="">
+        <input type="password" name="pswd" placeholder="Kata Sandi" required="">
+                <input type="password" name="pswd" placeholder="Konfirmasi Kata Sandi" required="">
+        <button id="createAcc">Daftar</button>
+      </form>
+    </div>
+
+    <div class="sign-in">
+      <form action="#">
+        <h1>Login</h1>
+        <input type="email" name="email" placeholder="Email" required="" id="signInEmail">
+        <input type="password" name="pswd" placeholder="Kata Sandi" required="" id="signInPassword">
+        <a href="#">Lupa kata sandi?</a>
+        <button id="loginAcc">Login</button>
+      </form>
+    </div>
+
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-left">
+          <h1>Sudah Memiliki Akun?</h1>
+          <p>Masuk untuk kembali ke Dashboard</p>
+          <button id="signIn">Login</button>
+        </div>
+        <div class="overlay-right">
+          <h1>Baru Pertama Kali?</h1>
+          <p>Buat akun untuk menyimpan progress</p>
+          <button id="signUp">Daftar</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

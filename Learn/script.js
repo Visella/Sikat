@@ -215,7 +215,7 @@ function submitSound(){
 document.addEventListener("DOMContentLoaded", () => {
     let progressBar = document.getElementById('progress-bar');
     let width = 0;
-    let targetWidth = 50; // Target width in percentage
+    let targetWidth = 50; 
     let interval = setInterval(() => {
         if (width >= targetWidth) {
             clearInterval(interval);
@@ -224,5 +224,52 @@ document.addEventListener("DOMContentLoaded", () => {
             progressBar.style.width = width + '%';
             progressBar.textContent = width + '%';
         }
-    }, 20); // Adjust this value to change the speed of the progress
+    }, 20); 
+});
+
+//riwayat
+
+const nilaiElements = document.querySelectorAll('.nilai');
+
+nilaiElements.forEach(element => {
+    const value = parseInt(element.textContent.replace('%', ''));
+
+    if (value < 50) {
+        element.classList.add('red');
+    } else {
+        element.classList.add('green');
+    }
+});
+
+//level 4 ganti video
+
+const videoElement = document.getElementById('level4btn');
+level4btn.addEventListener('click', () => {
+  const videoplay = document.getElementById('videoplay');
+  videoplay.src = '../video/video2.mp4';
+  videoplay.load();
+  videoplay.play();
+  
+  const submitButton = document.getElementById('submit');
+  submit.addEventListener('click', () => {
+    videoElement.classList.add('green');
+  })
+})
+
+
+document.getElementById('submit').addEventListener('click', () => {
+    const levelButtons = document.querySelectorAll('.level-button button');
+    levelButtons.forEach(button => {
+        if (button.classList.contains('selected')) {
+            button.classList.add('green');
+        }
+    });
+});
+
+const levelButtons = document.querySelectorAll('.level-button button');
+levelButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        levelButtons.forEach(btn => btn.classList.remove('selected'));
+        button.classList.add('selected');
+    });
 });

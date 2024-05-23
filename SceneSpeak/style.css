@@ -407,7 +407,8 @@ section {
 
 .swiper-slide {
     text-align: center;
-    font-size: 18px; */
+    font-size: 18px;
+    */
     /* background: #fff; */
     /* display: flex;*/
     justify-content: center;
@@ -429,6 +430,7 @@ section {
 .swiper-wrapper {
     margin-bottom: 5rem;
 }
+
 .swiper-pagination-bullet-active {
     background: var(--orange) !important;
 }
@@ -482,11 +484,11 @@ video {
     color: var(--orange);
 }
 
-video.playing + .video-component .btn-toggle {
+video.playing+.video-component .btn-toggle {
     opacity: 0;
 }
 
-video.playing:hover + .video-component .btn-toggle {
+video.playing:hover+.video-component .btn-toggle {
     opacity: 1;
 }
 
@@ -546,7 +548,7 @@ video.playing:hover + .video-component .btn-toggle {
     height: 4vw;
 }
 
-.score-box .btn-toggle i{
+.score-box .btn-toggle i {
     font-size: 2vw;
 }
 
@@ -568,7 +570,9 @@ video.playing:hover + .video-component .btn-toggle {
     font-size: 3rem;
 }
 
-.score-box, .score-container, .feedback-container {
+.score-box,
+.score-container,
+.feedback-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -590,12 +594,13 @@ video.playing:hover + .video-component .btn-toggle {
     padding: 1rem;
     background-color: #006A24;
 }
+
 /* jeeeeeeeee apa jesssssssssssssssss*/
 /* Upload Video  */
 
 .banner {
     padding: 2rem;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
@@ -608,7 +613,7 @@ video.playing:hover + .video-component .btn-toggle {
 .banner h2 {
     font-size: 3rem;
     width: 65rem;
-    color:var(--white);
+    color: var(--white);
 }
 
 .banner .btn {
@@ -631,7 +636,8 @@ video.playing:hover + .video-component .btn-toggle {
     margin-bottom: 20px;
 }
 
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
     color: var(--orange) !important;
     font-weight: 1000;
 }
@@ -664,7 +670,7 @@ video.playing:hover + .video-component .btn-toggle {
     margin-bottom: 2rem;
 }
 
-    /* .other .swiper {
+/* .other .swiper {
       width: 100%;
       height: 100%;
     }

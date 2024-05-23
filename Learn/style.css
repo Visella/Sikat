@@ -29,6 +29,11 @@
 
 /* All */
 
+.green {
+    background-color: #68D981;
+    color: white;
+}
+
 * {
     font-family: 'Poppins', sans-serif;
     margin:0; 
@@ -337,11 +342,18 @@ section{
 .level-button{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.level-button button:hover{
+    background-color: #d3d3d3;
+    color: black;
 }
 
 .level-button .done{
     background-color: #68D981;
     color: var(--white);
+    margin:  1rem;
 }
 
 button {
@@ -353,7 +365,7 @@ button {
     color: var(--black);
     cursor: pointer;
     background: none;
-    margin: 0 1rem;
+    margin:  1rem;
     background-color: white;
 }
 
@@ -433,6 +445,13 @@ video.playing:hover + .video-component .btn-toggle {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    background-color: var(--orange);
+    /* padding: 1rem; */
+    border-radius: 2rem;
+}
+
+.record-text{
+    margin: 1rem;
 }
 
 .mic-btn {
@@ -520,9 +539,77 @@ video.playing:hover + .video-component .btn-toggle {
 
 /* riwayat */
 
-.sejarah{
+.history {
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+}
+
+.history .sejarah {
     display: flex;
-    
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.history .recording {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    transition: background 0.3s;
+}
+
+/* .history .recording:hover {
+    background: #ff780040;
+} */
+
+.history .recording p {
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: var(--black);
+}
+
+.nilai {
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    transition: background 1s;
+}
+
+.nilai.red {
+    background-color: #FF6347; 
+}
+
+.nilai.green {
+    background-color: #68D981;
+}
+
+.btn-playrec {
+    border: none;
+    padding: 1rem;
+    background-color: #ff7800;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+.btn-playrec i {
+    font-size: 1vw;
+    color: var(--gray);
+}
+
+.btn-playrec i:hover {
+    color: var(--white);
 }
 
 /* learn end */
@@ -625,29 +712,7 @@ video.playing:hover + .video-component .btn-toggle {
     color:var(--orange);
 }
 
-.history {
-    background-color: var(--white);
-    padding: 2rem;
-    border-radius: 1rem;
-    box-shadow: var(--box-shadow);
-}
 
-.history .sejarah {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.history .recording {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #f9f9f9;
-    padding: 1rem 2rem;
-    border-radius: .5rem;
-    box-shadow: var(--box-shadow);
-    transition: background 0.3s;
-}
 
 /*Responsive Design*/
 

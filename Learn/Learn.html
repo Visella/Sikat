@@ -57,11 +57,11 @@
             <input type="email" placeholder="Email" class="box">
             <input type="password" placeholder="Password" class="box">
             <p>forget your password <a href="#">click here</a></p>
-            <p>don't have an account <a href="#">create now</a></p>
+            <p>don't have an account <a href="Account/account.html">create now</a></p>
             <input type="submit" value="login now" class="btn">
         </form>
 
-    </header>
+        </header>
 
     <!-- HEADER END -->
 
@@ -81,7 +81,7 @@
                 <button class="done">Level 1</button>
                 <button class="done">Level 2</button>
                 <button class="done">Level 3</button>
-                <button>Level 4</button>
+                <button id="level4btn">Level 4</button>
                 <button>Level 5</button>
                 <button>Ujian</button>
             </div>
@@ -93,7 +93,7 @@
 
         <div class="video-container" id="video-container-1">
             <div class="video-box" id="video-box">
-                <video>
+                <video id="videoplay">
                     <source src="../video/video1.mp4" type="video/mp4">
                 </video>
 
@@ -110,7 +110,7 @@
                         </div>
 
                     </div>
-                    <button class="btn submit-btn">Cek Keakuratan</button>
+                    <button class="btn submit-btn" id="submit">Cek Keakuratan</button>
                     <div>
                     </div>
                 </div>
@@ -141,18 +141,27 @@
 
         <div class="sejarah">
             <div class="recording">
-                <p>60%</p>
+                <p class="nilai">60%</p>
                 <p>Recording 3</p>
+                <button class="btn-playrec">
+                    <i class="fa-solid fa-play"></i>
+                </button>
             </div>
 
             <div class="recording">
-                <p>70%</p>
+                <p class="nilai">70%</p>
                 <p>Recording 2</p>
+                <button class="btn-playrec">
+                    <i class="fa-solid fa-play"></i>
+                </button>
             </div>
 
             <div class="recording">
-                <p>40%</p>
+                <p class="nilai">40%</p>
                 <p>Recording 1</p>
+                <button class="btn-playrec">
+                    <i class="fa-solid fa-play"></i>
+                </button>
             </div>
         </div>
     </section>
@@ -185,12 +194,12 @@
 
             <div class="box">
                 <h3>Navigasi</h3>
-                <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
-                <a href="#features" class="links"> <i class="fas fa-arrow-right"></i> Fasilitas </a>
-                <a href="#categories" class="links"> <i class="fas fa-arrow-right"></i> Modul </a>
-                <a href="#products" class="links"> <i class="fas fa-arrow-right"></i> Video </a>
-                <a href="#review" class="links"> <i class="fas fa-arrow-right"></i> Testimoni </a>
-                <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> Artikel </a>
+                <a href="../index.html" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+                <a href="../index.html#features" class="links"> <i class="fas fa-arrow-right"></i> Fasilitas </a>
+                <a href="../index.html#categories" class="links"> <i class="fas fa-arrow-right"></i> Modul </a>
+                <a href="../index.html#products" class="links"> <i class="fas fa-arrow-right"></i> Video </a>
+                <a href="../index.html#review" class="links"> <i class="fas fa-arrow-right"></i> Testimoni </a>
+                <a href="../index.html#blogs" class="links"> <i class="fas fa-arrow-right"></i> Artikel </a>
             </div>
 
             <div class="box">
