@@ -4,13 +4,13 @@ ENGLISH SECTION
 This repository was created to participate in the AI for Accessibility competition organized by Microsoft X BINUS University 2024 🔥🔥
 
 ## Table of Contents
-1. [Overview](https://github.com/Visella/Sikat#Overview)
-2. [Hackathon Idea](https://github.com/Visella/Sikat#Hackathon-Idea)
-3. [How to Use the Web](https://github.com/Visella/Sikat#How-to-Use-the-Web)
-4. [Web Explanation and Display](https://github.com/Visella/Sikat#Web-Explanation-and-Display)
-5. [Demo Video](https://github.com/Visella/Sikat#Demo-Video)
-6. [Translation](https://github.com/Visella/Sikat#Translation)
-7. [Team Details](https://github.com/Visella/Sikat#Team-Details)
+1. [Overview](#Overview)
+2. [Hackathon Idea](#Hackathon-Idea)
+3. [How to Use the Web](#How-to-Use-the-Web)
+4. [Web Explanation and Display](#Web-Explanation-and-Display)
+5. [Demo Video](#Demo-Video)
+6. [Translation](#Translation)
+7. [Team Details](#Team-Details)
 
 ## Overview
 
