@@ -231,6 +231,7 @@ Halaman ini merupakan tempat dimana user dapat login dan register untuk masuk ma
 
 #### Tampilan Register
 ![Register](https://github.com/Visella/Sikat/assets/76080599/4bcaae97-c255-4e17-ae1d-6a598a77f3a9)
+<br><br>
 
 <!-- Demo -->
 
