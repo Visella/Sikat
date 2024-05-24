@@ -1,4 +1,3 @@
-ENGLISH SECTION
 ## Microsoft X BINUS University AI for Accessibility by Team "SIKAT"
 
 This repository was created to participate in the AI for Accessibility competition organized by Microsoft X BINUS University 2024 🔥🔥
