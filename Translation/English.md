@@ -248,7 +248,7 @@ Our presentation video has been saved and documented in a OneDrive.
 
 We also provide an Indonesian version of the explanation, accessible in the following file:
 
-<a href="README.md"> Indonesian Translation </a>
+<a href="../README.md"> Indonesian Translation </a>
 
 <!-- Team -->
 
@@ -261,4 +261,4 @@ This repository was created by Team "SIKAT":
 - Stanley Nathanael Wijaya (Team Leader)
 - Visella
 
-From Bina Nusantara University (BINUS) Alam Sutera Region
+From Bina Nusantara University (BINUS) Alam Sutera
