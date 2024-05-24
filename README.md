@@ -3,7 +3,7 @@
 Repository ini dibuat untuk ikut serta dalam perlombaan AI for Accessibility yang diadakan oleh Microsoft X BINUS University 2024 🔥🔥
 
 ## Daftar Isi
-1. [Gambaran Besar](https://github.com/StyNW7/Slashcom_2024#Gambaran-Besar)
+1. [Gambaran Besar](https://github.com/Visella/Sikat#Gambaran-Besar)
 2. [Cara Penggunaan Web](https://github.com/StyNW7/Slashcom_2024#Cara-Penggunaan-Web)
 3. [Ide Hackathon](https://github.com/StyNW7/Slashcom_2024#Ide-Hackathon)
 4. [Penjelasan dan Tampilan Web](https://github.com/StyNW7/Slashcom_2024#Penjelasan-dan-Tampilan-Web)
@@ -69,15 +69,11 @@ Sehingga, jika ingin menjalankan secara local, pastikan bahwa file index.html ya
 
 <!-- Home Page -->
 
-### Halaman Home
-Home Page berisi informasi singkat tentang website Kok Tahu, dilengkapi dengan rekomendasi modul pembelajaran, games interaktif, section kuis, testimoni, dan lain sebagainya
+### Halaman Beranda
+Halaman Beranda berisi informasi singkat tentang website Speech Spark, penjelasan fasilitas-fasilitas yang ada, mulai dari fitur Speech Study, Scene Speak, dan Spark Bot. Halaman ini juga menjelaskan layanan yang dapat dipilih oleh pengguna, section tesimoni, artikel, dan footer.
 <br> <br>
 
-#### Mode Terang
-![Home Page](https://github.com/StyNW7/Slashcom_2024/assets/76080599/9be83a9b-9905-4d82-b1bd-56766367f7f8)
-
-#### Mode Gelap
-![Home Page Dark Mode](https://github.com/StyNW7/Slashcom_2024/assets/76080599/f9d8bd88-84ce-4d2f-8bb9-48d6c2fd9cd9)
+![Home Page](https://github.com/Visella/Sikat/assets/76080599/caf8135e-75b3-4cfc-bd82-1615650aa1f2)
 
 <!-- About Page -->
 
@@ -96,35 +92,6 @@ About Page ini berisi tentang penjelasan Platform "Kok Tahu?" dan tentang develo
 
 #### Tampilan Kok Tahu Blog
 ![Kok Tahu Blog](https://github.com/StyNW7/Slashcom_2024/assets/76080599/5c6e9175-df75-4804-8e92-fbec6eac4d0e)
-
-
-<!-- Module Page -->
-
-<br> <br>
-### Halaman Modul
-Module berisi modul-modul pembelajaran untuk setiap mata pelajaran Sekolah Dasar dan dapat diunduh secara gratis
-<br> <br>
-
-#### Section Modul
-![Modul Page](https://github.com/StyNW7/Slashcom_2024/assets/76080599/1752a010-cd56-46cc-89eb-08ce35e76752)
-<br> <br>
-
-#### Download Modul
-![Modul Page 2](https://github.com/StyNW7/Slashcom_2024/assets/76080599/1b38455b-4ad0-4ece-b4d7-a2f548d00b52)
-
-<!-- Games Page -->
-
-<br> <br>
-### Halaman Games
-Website Kok Tahu menyediakan beberapa games pembelajaran interaktif seperti simulasi bermain drum, simulasi piano, game tebak nomor, kalkulator, dan tantangan matematika. Kami juga menyediakan chatbot untuk menjawab pertanyaan-pertanyaan seputar website Kok Tahu.
-<br> <br>
-
-#### Section Games
-![Game Page](https://github.com/StyNW7/Slashcom_2024/assets/76080599/498ec2ef-8b0f-4fe1-9784-dfcd9ec646c6)
-<br> <br>
-
-#### Tampilan ToFu Bot
-![ToFu Bot](https://github.com/StyNW7/Slashcom_2024/assets/76080599/fa8a198c-2281-4fba-9416-0c7f676f3ef2)
 
 <!-- Exercise Page -->
 
@@ -146,10 +113,10 @@ Untuk mengetahui sejauh mana tingkat pengetahuan pengguna, kami juga menyediakan
 
 <!-- Demo -->
 
-## Demo Video
-Demo website kami telah dipublish di platform YouTube yang dapat diakses melalui link berikut ini
+## Video Presentasi
+Video Presentasi kami telah disimpan dan di dokumentasikan ke dalam sebuah OneDrive
 
-<a href="https://youtu.be/QzXOBQAW-dU"> Link YouTube Demo Website </a>
+<a href="https://bit.ly/sikatvideo"> Link Video Presentasi + Demo Website </a>
 
 <!-- Translation -->
 
@@ -163,12 +130,11 @@ Kami menyediakan penjelasan juga dalam versi Bahasa Inggris yang dapat diakses p
 
 ## Detail Tim
 
-Repository ini dibuat oleh Tim "g":
-- Stanley Nathanael Wijaya
+Repository ini dibuat oleh Tim "SIKAT":
+- Anastashia Ellena Widjaja
+- Jesselyn Widjaja
+- Jessy Clarissa Wijaya
+- Stanley Nathanael Wijaya (Ketua Tim)
 - Visella
 
 Dari Universitas Bina Nusantara (BINUS) Region Alam Sutera
-
-<code> This Repository is for a Hackathon Project written in Indonesia </code> thanks :D
-
-Hasil Perlombaan: Website ini mendapat peringkat 6 dan gagal masuk 5 besar dengan perbedaan skor 0.17 dengan peringkat 5 (NT)
