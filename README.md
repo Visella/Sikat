@@ -7,7 +7,7 @@ Repository ini dibuat untuk ikut serta dalam perlombaan AI for Accessibility yan
 2. [Ide Hackathon](https://github.com/Visella/Sikat#Ide-Hackathon)
 3. [Cara Penggunaan Web](https://github.com/Visella/Sikat#Cara-Penggunaan-Web)
 4. [Penjelasan dan Tampilan Web](https://github.com/Visella/Sikat#Penjelasan-dan-Tampilan-Web)
-5. [Demo Video](https://github.com/Visella/Sikat4#Video-Presentasi)
+5. [Demo Video](https://github.com/Visella/Sikat#Video-Presentasi)
 6. [Translation](https://github.com/Visella/Sikat#Translation)
 7. [Detail Tim](https://github.com/Visella/Sikat#Detail-Tim)
 
@@ -31,6 +31,18 @@ Aplikasi yang kami buat memiliki sebuah maskot yang bernama Sparkly yang merupak
 Topik: Komunikasi
 <br> <br>
 Pernyataan Masalah: Bagaimana cara mengotomatisasi terapi wicara bagi orang-orang yang memiliki disabilitas dalam hal berbicara menggunakan AI?
+
+### Latar Belakang Masalah
+
+Untuk mengenal lebih dalam terkait permasalahan ini, maka kami akan memberikan gambaran terkait deskripsi masalah untuk topik komunikasi, khususnya bagi para penyandang disabilitas. Permasalahan yang sering dihadapi orang-orang penyandang disabilitas yang mengalami kesulitan berbicara terjadi pada kehidupan sehari-hari mereka. Salah satunya adalah kesulitan berkomunikasi dengan pemahaman, kefasihan, dan produksi suara. Hal ini dapat berpengaruh pada kemampuan mereka berinteraksi dengan orang lain secara efektif. Mereka juga mengalami kesulitan dalam memproduksi suara yang jelas, penggunaan bahasa dan pemilihan kata-kata yang benar, memahami perkataan orang lain, mengungkapkan pikiran atau perasaan mereka dengan jelas, mengikuti percakapan dengan lancar, menyusun kalimat yang benar, dan menggunakan intonasi yang sesuai. Pernyataan ini didukung oleh data dari Survei Penduduk Antar Sensus oleh Badan Pusat Statistik pada tahun 2022 yang menunjukkan bahwa 1.268.636 orang memiliki sedikit kesulitan dalam berkomunikasi, 310.072 orang memiliki banyak kesulitan dalam berkomunikasi, dan 188.468 orang sama sekali tidak dapat berkomunikasi karena adanya kesulitan dan gangguan dalam berbicara. Kesulitan tersebut dapat mengakibatkan mereka terisolasi dalam situasi sosial dan menurunkan kepercayaan diri mereka.
+<br><br>
+Oleh karena itu, kami ingin membantu para penyandang disabilitas dalam aspek komunikasi agar mereka memiliki suatu wadah untuk berlatih berbicara, atau dengan kata lain melakukan terapi wicara. Terapi wicara merupakan proses atau metode yang dirancang untuk membantu dalam meningkatkan kemampuan bicara, memahami, dan menggunakan pemilihan bahasa dengan lebih efektif. Namun, beberapa penyandang disabilitas memiliki akses yang terbatas terhadap layanan terapi wicara akibat kekurangan biaya maupun metode terapi wicara yang kurang efektif. Hal-hal tersebut dapat menjadi hambatan mereka dalam mengatasi kesulitan berbicara. Maka dari itu, penting untuk meningkatkan aksesibilitas terhadap pelayanan terapi wicara bagi individu yang membutuhkannya.
+
+### Solusi
+
+#### Berikut merupakan kumpulan solusi objektif untuk mengatasi permasalahan komunikasi bagi para penyandang disabilitas:
+- Menyediakan platform atau media untuk terapi wicara dengan harga yang terjangkau dan kualitas baik.
+- Mengintegrasikan teknologi AI dalam pembuatan aplikasi pelayanan terapi wicara untuk mempermudah pengguna dalam belajar dan latihan berkomunikasi.
 
 ### Teknologi dan Infrastruktur
 
@@ -56,23 +68,6 @@ Pernyataan Masalah: Bagaimana cara mengotomatisasi terapi wicara bagi orang-oran
   - Azure Video Indexer (Emotions detection)
   - Speech Studio (Pronunciation Assessment with speech to text + Captioning with speech to text)
   - Azure Cognitive Services for Language & Azure Bot integrated with OpenAI
-
-
-### User Flow penggunaan aplikasi
-
-
-
-### Latar Belakang Masalah
-
-Untuk mengenal lebih dalam terkait permasalahan ini, maka kami akan memberikan gambaran terkait deskripsi masalah untuk topik komunikasi, khususnya bagi para penyandang disabilitas. Permasalahan yang sering dihadapi orang-orang penyandang disabilitas yang mengalami kesulitan berbicara terjadi pada kehidupan sehari-hari mereka. Salah satunya adalah kesulitan berkomunikasi dengan pemahaman, kefasihan, dan produksi suara. Hal ini dapat berpengaruh pada kemampuan mereka berinteraksi dengan orang lain secara efektif. Mereka juga mengalami kesulitan dalam memproduksi suara yang jelas, penggunaan bahasa dan pemilihan kata-kata yang benar, memahami perkataan orang lain, mengungkapkan pikiran atau perasaan mereka dengan jelas, mengikuti percakapan dengan lancar, menyusun kalimat yang benar, dan menggunakan intonasi yang sesuai. Pernyataan ini didukung oleh data dari Survei Penduduk Antar Sensus oleh Badan Pusat Statistik pada tahun 2022 yang menunjukkan bahwa 1.268.636 orang memiliki sedikit kesulitan dalam berkomunikasi, 310.072 orang memiliki banyak kesulitan dalam berkomunikasi, dan 188.468 orang sama sekali tidak dapat berkomunikasi karena adanya kesulitan dan gangguan dalam berbicara. Kesulitan tersebut dapat mengakibatkan mereka terisolasi dalam situasi sosial dan menurunkan kepercayaan diri mereka.
-<br><br>
-Oleh karena itu, kami ingin membantu para penyandang disabilitas dalam aspek komunikasi agar mereka memiliki suatu wadah untuk berlatih berbicara, atau dengan kata lain melakukan terapi wicara. Terapi wicara merupakan proses atau metode yang dirancang untuk membantu dalam meningkatkan kemampuan bicara, memahami, dan menggunakan pemilihan bahasa dengan lebih efektif. Namun, beberapa penyandang disabilitas memiliki akses yang terbatas terhadap layanan terapi wicara akibat kekurangan biaya maupun metode terapi wicara yang kurang efektif. Hal-hal tersebut dapat menjadi hambatan mereka dalam mengatasi kesulitan berbicara. Maka dari itu, penting untuk meningkatkan aksesibilitas terhadap pelayanan terapi wicara bagi individu yang membutuhkannya.
-
-### Solusi
-
-#### Berikut merupakan kumpulan solusi objektif untuk mengatasi permasalahan komunikasi bagi para penyandang disabilitas:
-- Menyediakan platform atau media untuk terapi wicara dengan harga yang terjangkau dan kualitas baik.
-- Mengintegrasikan teknologi AI dalam pembuatan aplikasi pelayanan terapi wicara untuk mempermudah pengguna dalam belajar dan latihan berkomunikasi.
 
 ### Kesimpulan
 
@@ -131,43 +126,111 @@ Sehingga, jika ingin menjalankan secara local, pastikan bahwa file index.html ya
 Halaman Beranda berisi informasi singkat tentang website Speech Spark, penjelasan fasilitas-fasilitas yang ada, mulai dari fitur Speech Study, Scene Speak, dan Spark Bot. Halaman ini juga menjelaskan layanan yang dapat dipilih oleh pengguna, section tesimoni, artikel, dan footer.
 <br> <br>
 
+#### Tampilan Beranda
 ![Home Page](https://github.com/Visella/Sikat/assets/76080599/caf8135e-75b3-4cfc-bd82-1615650aa1f2)
-
-<!-- About Page -->
-
-<br> <br>
-### Halaman About
-About Page ini berisi tentang penjelasan Platform "Kok Tahu?" dan tentang developers yang membuat Website ini
 <br> <br>
 
-#### Tampilan About Detail
-![About Details](https://github.com/StyNW7/Slashcom_2024/assets/76080599/e3cc98ac-c0fd-4171-87c1-d68d5a284b03)
+#### Tampilan Tentang Speech Spark
+![About Page](https://github.com/Visella/Sikat/assets/76080599/1c2c9322-08d9-44f2-b6f5-254266f5755e)
 <br> <br>
 
-#### Tampilan About Web
-![About Web](https://github.com/StyNW7/Slashcom_2024/assets/76080599/3ffc67cf-74f7-471a-a723-2cfb6df269a5)
+#### Tampilan Fasiltias Speech Spark
+![Facility Page](https://github.com/Visella/Sikat/assets/76080599/ace96b97-5513-4147-9677-2ef983c51bf2)
 <br> <br>
 
-#### Tampilan Kok Tahu Blog
-![Kok Tahu Blog](https://github.com/StyNW7/Slashcom_2024/assets/76080599/5c6e9175-df75-4804-8e92-fbec6eac4d0e)
-
-<!-- Exercise Page -->
-
-<br> <br>
-### Halaman Kuis
-Untuk mengetahui sejauh mana tingkat pengetahuan pengguna, kami juga menyediakan kuis-kuis untuk setiap mata pelajaran Sekolah Dasar yang dilengkapi dengan timer dan lagu website Kok Tahu. Tes juga tersedia dan diberikan waktu 5 menit untuk mengerjakan. Setelah pengerjaan, akan ditampilkan skor dan badge yang dapat diunduh.
+#### Tampilan Speech Study
+![Speech Study](https://github.com/Visella/Sikat/assets/76080599/f2656973-fca9-488e-8f77-db6680de27f4)
 <br> <br>
 
-#### Section Latihan
-![Quiz Page](https://github.com/StyNW7/Slashcom_2024/assets/76080599/e4543b1c-eb13-46e8-8c88-b69329a834d0)
+#### Tampilan Scene Speak
+![Scene Speak](https://github.com/Visella/Sikat/assets/76080599/293318de-875d-4c53-bcf0-3e9689b63a66)
 <br> <br>
 
-#### Tampilan Kuis
-![Quiz Section](https://github.com/StyNW7/Slashcom_2024/assets/76080599/a03114da-7237-455f-a110-111a761ece5d)
+#### Tampilan Daftar Harga
+![Price List](https://github.com/Visella/Sikat/assets/76080599/deac7392-1909-4250-914d-0db9be300314)
 <br> <br>
 
-#### Tampilan Tes
-![Test Page](https://github.com/StyNW7/Slashcom_2024/assets/76080599/f1fbdb7d-9eb0-4a9f-8a1d-f5ac50eb4347)
+#### Tampilan Testimoni
+![Testimony](https://github.com/Visella/Sikat/assets/76080599/7de8b562-4aca-4530-ac18-142f41edfab3)
+<br> <br>
+
+#### Tampilan Artikel
+![Artikel](https://github.com/Visella/Sikat/assets/76080599/79b5539a-2b51-4eed-a852-d970f3563314)
+<br> <br>
+
+<!-- Speech Study Page -->
+
+<br> <br>
+### Halaman Speech Study
+Halaman ini merupakan fitur utama dari Speech Spark, yaitu pembelajaran terstruktur melalui berbagai modul pembelajaran
+<br> <br>
+
+#### Tampilan 1
+![Speech Study 1](https://github.com/Visella/Sikat/assets/76080599/b4deaf7a-7576-4db5-840c-4c6324fede11)
+<br> <br>
+
+#### Tampilan 2
+![Speech Study 2](https://github.com/Visella/Sikat/assets/76080599/0c0dce09-a931-42b7-9012-963e11e14440)
+
+<!-- Scene Speak Page -->
+
+<br> <br>
+### Halaman Scene Speak
+Halaman ini merupakan fitur utama kedua dari Speech Spark, dimana pengguna dapat berlatiha berkomunikasi melalui berbagai video yang disediakan
+<br> <br>
+
+#### Tampilan 1
+![Video1](https://github.com/Visella/Sikat/assets/76080599/77271f13-3ef4-422b-89ce-800d9d06eb79)
+<br> <br>
+
+#### Tampilan 2
+![Video2](https://github.com/Visella/Sikat/assets/76080599/4d0da62b-3df3-4214-8145-9a5b94883dc9)
+<br> <br>
+
+#### Tampilan 3
+![Video3](https://github.com/Visella/Sikat/assets/76080599/bb48f7b3-5c41-455b-9216-88631562c0e2)
+
+<!-- Spark Bot Page -->
+
+<br> <br>
+### Halaman Spark Bot
+Halaman ini merupakan fitur utama ketiga, dimana pengguna dapat bertanya kepada Chatbot Speech Spark yang bernama Spark Bot!
+<br> <br>
+
+#### Tampilan Spark Bot Web
+![SparkBot](https://github.com/Visella/Sikat/assets/76080599/9b0b2b50-4860-4b5c-a443-6df45df16ba4)
+<br><br>
+
+#### Tampilan Spark Bot Mobile
+![SparkBotMobile](https://github.com/Visella/Sikat/assets/76080599/a35dc3a0-a3b0-473d-bd37-4c6081bb0591)
+
+<!-- Artikel Page -->
+
+<br> <br>
+### Halaman Artikel
+Halaman ini merupakan fitur tambahan dari Speech Spark, yaitu dimana pengguna dapat membaca berbagai artikel secara gratis untuk meningkatkan pengetahuan
+<br> <br>
+
+#### Tampilan 1
+![Artikel1](https://github.com/Visella/Sikat/assets/76080599/97ad1223-b29d-4e82-a81c-6523936ec552)
+<br><br>
+
+#### Tampilan 2
+![Artikel2](https://github.com/Visella/Sikat/assets/76080599/7867bf49-f85d-48d8-b73b-219b088a0a0e)
+
+<!-- Account Page -->
+
+<br> <br>
+### Halaman Akun
+Halaman ini merupakan tempat dimana user dapat login dan register untuk masuk maupun membuat akun Speech Spark
+<br> <br>
+
+#### Tampilan Login
+![Login](https://github.com/Visella/Sikat/assets/76080599/71cadee0-922a-4c54-8eb3-2b5aeff149ff)
+<br><br>
+
+#### Tampilan Register
+![Register](https://github.com/Visella/Sikat/assets/76080599/4bcaae97-c255-4e17-ae1d-6a598a77f3a9)
 
 <!-- Demo -->
 
