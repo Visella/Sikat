@@ -199,7 +199,20 @@ function showScore(){
   scoreBox.style.display = "flex";
 }
 
-submitButton.addEventListener('click', submitSound);
+// submitButton.addEventListener('click', submitSound);
+submitButton.addEventListener('click', ()=>{
+    $.ajax({
+            url: '/run-function',
+            type: 'POST',
+            success: function(response){
+                $("#result").html(response.message);
+            },
+            error: function(error){
+                $("#result").html("Error: " + error.responseText);
+            }
+    });
+});
+    
 
 function submitSound(){
   hideMicButton();
