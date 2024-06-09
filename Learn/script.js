@@ -133,7 +133,8 @@ function hideSubmitButton() {
 }
 
 playPauseButton.addEventListener('click', playAndPause);
-
+submitButton.addEventListener('click', submitSound);
+    
 video.addEventListener('play', () => {
   playPauseButton.innerHTML = '<i class="fa-solid fa-pause"></i>';
   video.classList.add('playing');
@@ -200,28 +201,45 @@ function showScore(){
 }
 
 // submitButton.addEventListener('click', submitSound);
-submitButton.addEventListener('click', ()=>{
-    $.ajax({
-            url: '/run-function',
-            type: 'POST',
-            success: function(response){
-                $("#result").html(response.message);
-            },
-            error: function(error){
-                $("#result").html("Error: " + error.responseText);
-            }
-    });
-});
+// submitButton.addEventListener('click', ()=>{
+//     $.ajax({
+//             url: '/run-function',
+//             type: 'POST',
+//             success: function(response){
+//                 $("#result").html(response.message);
+//             },
+//             error: function(error){
+//                 $("#result").html("Error: " + error.responseText);
+//             }
+//     });
+// });
     
 
-function submitSound(){
-  hideMicButton();
-  hideRecordText();
-  hideSubmitButton();
-  // video.pause();
-  audio.style.display = "none";
-  showScore();
-}
+async function submitSound() {
+        hideMicButton();
+        hideRecordText();
+        hideSubmitButton();
+        // video.pause();
+        audio.style.display = "none";
+        showScore();
+
+        const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+        const formData = new FormData();
+        formData.append('audio_data', audioBlob, 'audio.wav');
+        formData.append('reftext', 'Your reference text here'); // Add your reference text
+
+        try {
+            const response = await fetch('/ackaud', {
+                method: 'POST',
+                body: formData
+            });
+            const result = await response.json();
+            console.log('Server response:', result);
+            // Handle the response from the server
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    }
   }); 
 
 //Progress bar
