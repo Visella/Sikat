@@ -1,11 +1,41 @@
+// Login Form
+
+let loginForm = document.querySelector('.login-form');
+
+document.querySelector('#login-btn').onclick = () =>{
+    loginForm.classList.toggle('active');
+    navbar.classList.remove('active');
+}
+
+let navbar = document.querySelector('.navbar');
+
+// Menu Icon
+
+document.querySelector('#menu-btn').onclick = () =>{
+    navbar.classList.toggle('active');
+    loginForm.classList.remove('active');
+}
+
 // Video Slider Swiper
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
+  breakpoints: {
+    200: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    450: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  }
 });
 
 // Other Video Swiper
@@ -20,6 +50,20 @@ var swiper2 = new Swiper(".mySwiper2", {
   },
   mousewheel: true,
   keyboard: true,
+  breakpoints: {
+  200: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    450: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+  }
 });
 
 // Custom Video Player
