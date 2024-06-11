@@ -400,8 +400,7 @@ video {
 
 .btn-toggle {
     border: none;
-    padding: 1rem;
-    background-color: ;
+    padding: 1vw 1rem;
     border-radius: 50%;
     width: 6vw;
     height: 6vw;
@@ -811,6 +810,35 @@ video.playing:hover + .video-component .btn-toggle {
 
     .heading{
         font-size: 2.5rem;
+    }
+    
+    .video-component{
+        gap: 1rem;
+    }
+    
+    .video-box p {
+        font-size: 1rem;
+        width: 20vw;
+    }
+
+    .submit-btn {
+        font-size: 1rem;
+    }
+
+    .score-box {
+        padding: 0.5rem 1.5rem;
+    }
+
+    .score-container {
+        padding: 0.2rem;
+    }
+
+    .score-box h2 {
+        font-size: 1rem;
+    }
+
+    .score-box, .score-container, .feedback-container {
+        gap: 0.6rem;
     }
 
     .footer{
