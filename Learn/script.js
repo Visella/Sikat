@@ -162,7 +162,7 @@ const audio = document.createElement("audio");
   container.querySelector('.record-container').appendChild(audio);
 
 async function recordSound() {
-  window.location="https://sikat-pronunciation.azurewebsites.net/";
+    window.location="https://sikat-pronunciation.azurewebsites.net/";
   // if (!isRecording) {
   //   try {
   //     const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
