@@ -114,3 +114,163 @@ function showMicButton() {
 
 function showRecordText() {
   recordText.style.display = "block";
+}
+
+function showSubmitButton() {
+  submitButton.style.display = "block";
+}
+
+function hideMicButton() {
+  micButton.style.display = "none";
+}
+
+function hideRecordText() {
+  recordText.style.display = "none";
+}
+
+function hideSubmitButton() {
+  submitButton.style.display = "none";
+}
+
+playPauseButton.addEventListener('click', playAndPause);
+
+video.addEventListener('play', () => {
+  playPauseButton.innerHTML = '<i class="fa-solid fa-pause"></i>';
+  video.classList.add('playing');
+  timeoutID = setTimeout(() => {
+    video.pause();
+    playPauseButton.style.display = "none";
+    showMicButton();
+    showRecordText();
+    showSubmitButton();
+  }, 20000); // 20 seconds
+});
+
+video.addEventListener('pause', () => {
+  playPauseButton.innerHTML = '<i class="fa-solid fa-play"></i>';
+  video.classList.remove('playing');
+  clearTimeout(timeoutID);
+});
+
+micButton.addEventListener('click', recordSound);
+
+let recorder;
+let audioChunks = [];
+let isRecording = false;
+
+const audio = document.createElement("audio");
+  container.querySelector('.record-container').appendChild(audio);
+
+async function recordSound() {
+  window.location="https://sikat-pronunciation.azurewebsites.net/";
+  // if (!isRecording) {
+  //   try {
+  //     const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  //     recorder = new MediaRecorder(stream);
+  //     recorder.ondataavailable = function(event) {
+  //       audioChunks.push(event.data);
+  //     };
+  //     recorder.onstop = function() {
+  //       const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+  //       const audioUrl = URL.createObjectURL(audioBlob);
+  //       audio.controls = true;
+  //       audio.src = audioUrl;
+  //       audioChunks = [];  // Clear the audio chunks for the next recording
+  //     };
+  //     recorder.start();
+  //     isRecording = true;
+  //     micButton.classList.add('recording');
+  //     recordText.textContent = "Sedang merekam...";
+  //   } catch (err) {
+  //     console.error('Error accessing microphone:', err);
+  //   }
+  // } else {
+  //   if (recorder && recorder.state === 'recording') {
+  //     recorder.stop();
+  //     isRecording = false;
+  //     micButton.classList.remove('recording');
+  //     recordText.textContent = "Tekan tombol microphone untuk merekam suara Anda";
+  //   }
+  // }
+}
+
+const scoreBox = container.querySelector(".score-box");
+
+function showScore(){
+  scoreBox.style.display = "flex";
+}
+
+submitButton.addEventListener('click', submitSound);
+
+function submitSound(){
+  hideMicButton();
+  hideRecordText();
+  hideSubmitButton();
+  // video.pause();
+  audio.style.display = "none";
+  showScore();
+}
+  }); 
+
+//Progress bar
+document.addEventListener("DOMContentLoaded", () => {
+    let progressBar = document.getElementById('progress-bar');
+    let width = 0;
+    let targetWidth = 50; 
+    let interval = setInterval(() => {
+        if (width >= targetWidth) {
+            clearInterval(interval);
+        } else {
+            width++;
+            progressBar.style.width = width + '%';
+            progressBar.textContent = width + '%';
+        }
+    }, 20); 
+});
+
+//riwayat
+
+const nilaiElements = document.querySelectorAll('.nilai');
+
+nilaiElements.forEach(element => {
+    const value = parseInt(element.textContent.replace('%', ''));
+
+    if (value < 50) {
+        element.classList.add('red');
+    } else {
+        element.classList.add('green');
+    }
+});
+
+//level 4 ganti video
+
+const videoElement = document.getElementById('level4btn');
+level4btn.addEventListener('click', () => {
+  const videoplay = document.getElementById('videoplay');
+  videoplay.src = '../video/video2.mp4';
+  videoplay.load();
+  videoplay.play();
+  
+  const submitButton = document.getElementById('submit');
+  submit.addEventListener('click', () => {
+    videoElement.classList.add('green');
+  })
+})
+
+
+document.getElementById('submit').addEventListener('click', () => {
+    const levelButtons = document.querySelectorAll('.level-button button');
+    levelButtons.forEach(button => {
+        if (button.classList.contains('selected')) {
+            button.classList.add('green');
+        }
+    });
+});
+
+const levelButtons = document.querySelectorAll('.level-button button');
+levelButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        levelButtons.forEach(btn => btn.classList.remove('selected'));
+        button.classList.add('selected');
+    });
+});
