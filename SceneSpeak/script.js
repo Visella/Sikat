@@ -140,35 +140,36 @@ const audio = document.createElement("audio");
   container.querySelector('.record-container').appendChild(audio);
 
 async function recordSound() {
-  if (!isRecording) {
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      recorder = new MediaRecorder(stream);
-      recorder.ondataavailable = function(event) {
-        audioChunks.push(event.data);
-      };
-      recorder.onstop = function() {
-        const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
-        const audioUrl = URL.createObjectURL(audioBlob);
-        audio.controls = true;
-        audio.src = audioUrl;
-        audioChunks = [];  // Clear the audio chunks for the next recording
-      };
-      recorder.start();
-      isRecording = true;
-      micButton.classList.add('recording');
-      recordText.textContent = "Sedang merekam...";
-    } catch (err) {
-      console.error('Error accessing microphone:', err);
-    }
-  } else {
-    if (recorder && recorder.state === 'recording') {
-      recorder.stop();
-      isRecording = false;
-      micButton.classList.remove('recording');
-      recordText.textContent = "Tekan tombol microphone untuk merekam suara Anda";
-    }
-  }
+  window.location="https://sikat-pronunciation.azurewebsites.net/";
+  // if (!isRecording) {
+  //   try {
+  //     const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  //     recorder = new MediaRecorder(stream);
+  //     recorder.ondataavailable = function(event) {
+  //       audioChunks.push(event.data);
+  //     };
+  //     recorder.onstop = function() {
+  //       const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+  //       const audioUrl = URL.createObjectURL(audioBlob);
+  //       audio.controls = true;
+  //       audio.src = audioUrl;
+  //       audioChunks = [];  // Clear the audio chunks for the next recording
+  //     };
+  //     recorder.start();
+  //     isRecording = true;
+  //     micButton.classList.add('recording');
+  //     recordText.textContent = "Sedang merekam...";
+  //   } catch (err) {
+  //     console.error('Error accessing microphone:', err);
+  //   }
+  // } else {
+  //   if (recorder && recorder.state === 'recording') {
+  //     recorder.stop();
+  //     isRecording = false;
+  //     micButton.classList.remove('recording');
+  //     recordText.textContent = "Tekan tombol microphone untuk merekam suara Anda";
+  //   }
+  // }
 }
 
 const scoreBox = container.querySelector(".score-box");
